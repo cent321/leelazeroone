@@ -15,4 +15,4 @@ if not os.path.exists('/usr/lib/x86_64-linux-gnu/libnvidia-opencl.so.1'):
     __shell__('apt -qq install --no-install-recommends nvidia-opencl-dev > /dev/null')
     __shell__('apt --fix-broken install > /dev/null')
 
-__shell__('cd leelazeroone; ./autogtp | grep minute' )
+__shell__('cd leelazeroone; ./autogtp' )
